@@ -34,10 +34,10 @@ Before using Alibaba Druid, You need to remove HikariCP dependency in the pom.xm
 
 ### Step 3: config Druid
 
-By Default, Spring Boot 2.x use and autoconfig Hikari,
+By Default, Spring Boot 2.x use and autoconfig HikariCP,
 including connection pool parameters.
 
-But you would config Druid by yourself when using Druid instead of Hikari,
+But you would config Druid by yourself when using Druid instead of HikariCP,
 or everything like **PoolingCount**,**CreateCount** and **ConnectionCount** would be 0.
 
 Look `resources/application.properties` for details.
